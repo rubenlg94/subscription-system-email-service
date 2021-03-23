@@ -1,0 +1,27 @@
+server:
+  port: 1950
+
+api-key:
+  header: API-KEY
+  secret: 81ABDBF009A1CC69EBF9BC564A8677BF050063044306CD1FD03F17CC27CEEDEB
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+mail-template:
+  created-subscription:
+    subject: Welcome to our Newsletter
+    message: Thank you for subscribing to our newsletter.
+  cancelled-subscription:
+    subject: Cancelled Newsletter Subscription
+    message: Your subscription has been cancelled succesfully.
