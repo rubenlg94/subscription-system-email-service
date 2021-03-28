@@ -57,7 +57,8 @@ Create the Docker image:
 docker build .
 ```
 Run the Docker containers (you can check the ports you should map in the application.yml):
-```sh5048
+```sh
+docker run -d -p 1950:1950
 ```
 
 ## Dependencies
