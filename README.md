@@ -1,5 +1,5 @@
 # Subscription System
-## Email  Service_
+## _Email  Service_
 
 This microservice is part of a Subscription System composed by three different microservices.
 - The [public service]: Backend for Frontend microservice to be used by UI frontend
